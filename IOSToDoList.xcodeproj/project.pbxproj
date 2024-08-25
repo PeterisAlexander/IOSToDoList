@@ -34,6 +34,7 @@
 		BC0F90E92C7A11B700C4F30A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F90E82C7A11B700C4F30A /* HeaderView.swift */; };
 		BC0F90EB2C7A16E400C4F30A /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F90EA2C7A16E400C4F30A /* TLButton.swift */; };
 		BC0F90ED2C7A2A6900C4F30A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F90EC2C7A2A6900C4F30A /* Extensions.swift */; };
+		BC0F90EF2C7BA52E00C4F30A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F90EE2C7BA52E00C4F30A /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		BC0F90E82C7A11B700C4F30A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		BC0F90EA2C7A16E400C4F30A /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		BC0F90EC2C7A2A6900C4F30A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BC0F90EE2C7BA52E00C4F30A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,11 +145,11 @@
 			children = (
 				BC0F90DA2C7A06FB00C4F30A /* MainViewViewModel.swift */,
 				BC0F90DC2C7A071200C4F30A /* ProfileViewViewModel.swift */,
+				BC0F90E62C7A07CF00C4F30A /* ToDoListItemViewViewModel.swift */,
 				BC0F90DE2C7A073B00C4F30A /* ToDoListViewViewModel.swift */,
 				BC0F90E02C7A076700C4F30A /* NewItemViewViewModel.swift */,
 				BC0F90E22C7A078600C4F30A /* LoginViewViewModel.swift */,
 				BC0F90E42C7A079500C4F30A /* RegisterViewViewModel.swift */,
-				BC0F90E62C7A07CF00C4F30A /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				BC0F90AF2C79EBA600C4F30A /* Assets.xcassets */,
+				BC0F90EE2C7BA52E00C4F30A /* Launch Screen.storyboard */,
 				BC0F90B92C79EE4B00C4F30A /* GoogleService-Info.plist */,
 				BC0F90AB2C79EBA500C4F30A /* IOSToDoListApp.swift */,
 				BC0F90EC2C7A2A6900C4F30A /* Extensions.swift */,
@@ -241,6 +244,7 @@
 			files = (
 				BC0F90B32C79EBA600C4F30A /* Preview Assets.xcassets in Resources */,
 				BC0F90B02C79EBA600C4F30A /* Assets.xcassets in Resources */,
+				BC0F90EF2C7BA52E00C4F30A /* Launch Screen.storyboard in Resources */,
 				BC0F90BA2C79EE4B00C4F30A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IOSToDoList/Preview Content\"";
@@ -411,6 +416,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"IOSToDoList/Preview Content\"";
@@ -440,6 +447,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
